@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Image from "../assets/image.png";
-import Logo from "../assets/logo.png";
+import Image from "../assets/image2.png";
+import Logo from "../assets/logo2.png";
 import GoogleSvg from "../assets/icons8-google.svg";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
@@ -19,11 +19,11 @@ const Login = () => {
       <div className="login-right">
         <div className="login-right-container">
           <div className="login-logo">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" style={{ width: "250px", height: "auto" }}/>
           </div>
           <div className="login-center">
-            <h2>Welcome back!</h2>
-            <p>Please enter your details</p>
+            <h1>Welome Back To </h1>
+            <h2>Care Assured</h2>
             <form>
               <input type="email" placeholder="Email" />
               <div className="pass-input-div">
@@ -45,11 +45,7 @@ const Login = () => {
               </div>
               <div className="login-center-buttons">
                 <button type="button">Log In</button>
-                <button type="button">
-                  <img src={GoogleSvg} alt="" />
-                  Log In with Google
-                </button>
-              </div>
+                </div>
             </form>
           </div>
 
