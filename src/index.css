@@ -73,8 +73,11 @@ body{
   width: 50px;
 }
 
+.login-center h1{
+  font-size: 3rem;
+}
 .login-center h2{
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .login-center{
@@ -98,6 +101,7 @@ form input[type='text']
   border-bottom: 1.5px solid black;
   outline: none;
   box-sizing: border-box;
+  font-size: 1.5rem;
 }
 
 .pass-input-div{
@@ -188,7 +192,7 @@ form button[type='button'] {
 
 .login-bottom-p{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding-bottom: 40px;
 }
 
@@ -201,3 +205,6 @@ form button[type='button'] {
   text-decoration: underline;
 }
 
+.footer-bottom-p{
+   text-align: center;
+}

@@ -50,8 +50,13 @@ const Login = () => {
           </div>
 
           <p className="login-bottom-p">
-            Don't have an account? <a href="#">Sign Up</a>
+            Don't have an account? <a href="#">Who are we?</a>
           </p>
+
+          <p className="footer-bottom-p">
+            Terms and Conditions
+          </p>
+
         </div>
       </div>
     </div>
