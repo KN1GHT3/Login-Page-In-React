@@ -12,7 +12,7 @@ const Login = () => {
 
 
   return (
-    <div className="login-main">
+    <div className="login-main">  
       <div className="login-left">
         <img src={Image} alt="" />
       </div>

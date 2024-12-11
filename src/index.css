@@ -208,3 +208,49 @@ form button[type='button'] {
 .footer-bottom-p{
    text-align: center;
 }
+
+/* Main container with flex layout */
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Full height */
+}
+
+/* Left Sidebar */
+.dashboard-sidebar {
+  width: 20%; /* Sidebar width */
+  background-color: #f4f4f4; /* Light gray */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-sidebar ul {
+  list-style: none;
+}
+
+.dashboard-sidebar ul li {
+  margin: 15px 0;
+}
+
+.dashboard-sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.dashboard-sidebar ul li a:hover {
+  color: #007BFF; /* Highlight color */
+}
+
+/* Right Content Area */
+.dashboard-content {
+  flex: 1; /* Takes remaining space */
+  padding: 20px;
+  background-color: #ffffff;
+  overflow-y: auto;
+   background-color: lightgreen;
+}
+
+.dashboard-content h1 {
+  margin-top: 0;
+}
